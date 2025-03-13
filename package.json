@@ -8,6 +8,7 @@
     "deploy": "vercel"
   },
   "dependencies": {
+    "debug": "^4.3.1",
     "dotenv": "^16.4.7",
     "frog": "latest",
     "hono": "^4"
