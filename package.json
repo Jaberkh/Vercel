@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vercel build",
-    "dev": "frog dev",
-    "deploy": "vercel"
+    "dev": "ts-node api/index.tsx",
+    "build": "tsc", 
+    "start": "node dist/api/index.js"
   },
   "dependencies": {
     "debug": "^4.3.1",
