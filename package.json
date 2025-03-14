@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "ts-node api/index.tsx",
     "build": "tsc", 
-    "start": "node dist/api/index.js"
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "debug": "^4.3.1",
